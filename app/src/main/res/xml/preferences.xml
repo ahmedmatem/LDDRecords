@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_email_title"
+        android:key="pref_key_email_settings">
+
+        <EditTextPreference
+            android:key="pref_key_email_to"
+            android:title="@string/email_to_title"
+            android:summary="@string/email_to_default"
+            android:defaultValue="@string/email_to_default"/>
+
+        <EditTextPreference
+            android:key="pref_key_email_subject"
+            android:title="@string/email_subject_title"
+            android:summary="@string/email_subject_default"
+            android:defaultValue="@string/email_subject_default"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
